@@ -1,0 +1,58 @@
+
+const TrendingProduct = [
+    {   id:1,
+      imgSrc: require('../img/table3.jpeg'),
+      price: 119.00,
+      discountedPrice: 150.00,
+      title: 'Aliquet auctor semali',
+      description: 'More than just a furniture. 100% solid hardwood. Designs forevery occasion. ',
+      stars: 5,
+    },
+    {
+        id:2,
+      imgSrc: require('../img/img7.jpg'),
+      price: 79.00,
+      discountedPrice: 100.00,
+      title: 'Aliquet auctor semali',
+      description: 'More than just a furniture. 100% solid hardwood. Designs forevery occasion. ',
+      stars: 5,
+    },
+    {
+        id:3,
+        imgSrc: require('../img/sofa.jpg'),
+        price: 99.00,
+        discountedPrice: 120.00,
+        title: 'Modern Sofa',
+        description: 'More than just a furniture. 100% solid hardwood. Designs forevery occasion. ',
+        stars: 3,
+      },
+      {
+        id:4,
+        imgSrc: require('../img/speaker.jpg'),
+        price: 100.00,
+        discountedPrice: 150.00,
+        title: 'Powerful Speaker',
+        description: 'More than just a furniture. 100% solid hardwood. Designs forevery occasion. ',
+        stars: 4,
+      },
+      {
+        id:5,
+        imgSrc: require('../img/table2.jpg'),
+        price: 119.00,
+        discountedPrice: 130.00,
+        title: 'TV Stand',
+        description: 'More than just a furniture. 100% solid hardwood. Designs forevery occasion. ',
+        stars: 2,
+      },
+      {
+        id:6,
+        imgSrc: require('../img/mtablebook.jpeg'),
+        price: 89.00,
+        discountedPrice: 100.00,
+        title: 'Metal Table',
+        description: 'More than just a furniture. 100% solid hardwood. Designs forevery occasion. ',
+        stars: 5,
+      },
+  ];
+
+  export default TrendingProduct;
