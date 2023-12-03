@@ -22,7 +22,7 @@ function MagazineLatest() {
        <button className='bg-warning px-2 rounded-2' style={{marginLeft:'200px'}} onClick={handleInfo}> <FaArrowLeft/> back</button>
     
     <div className='container '>
-<div className='text-center py-3 kitchen shadow rounded-1'><h3>MAGAZINE</h3></div>
+<div className='text-center py-3 kitchen  rounded-1'><h3>MAGAZINE</h3></div>
 
 <div className='row'>
 <div className='col-lg-2 brand_names'>

@@ -28,7 +28,7 @@ const RecentlyViewedDetail = ({ }) => {
   
   return (
   <>
-      <button className='bg-warning px-2 rounded-2' style={{marginLeft:'200px'}} onClick={handleInfo}> <FaArrowLeft/> back</button>
+     <button className='bg-light px-2 rounded-2 my-3' style={{marginLeft:'100px'}} onClick={handleInfo}> <FaArrowLeft/> back</button>
     
     <div className='container  my-2 py-4 ' style={{maxWidth:'900px',border:'1px solid grey',}}>
         <div className='row'>

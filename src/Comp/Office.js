@@ -17,12 +17,12 @@ function Office() {
 
   return (
     <>
-  <button className='bg-warning px-2 rounded-2' style={{marginLeft:'200px'}} onClick={handleInfo}> <FaArrowLeft/> back</button>
+  <button className='bg-light px-2 rounded-2 my-3' style={{marginLeft:'100px'}} onClick={handleInfo}> <FaArrowLeft/> back</button>
     
 
 <section className='banner_page'>
 <div className='container'>
-<div><h2 className=' text-center pb-3 shadow rounded-1'>OFFICE FURNITURES</h2></div>
+<div><h2 className=' text-center pb-3  rounded-1'>OFFICE FURNITURES</h2></div>
 <div className='featured'>
   <div className='row'>
     <div className='col-lg-3'>

@@ -5,6 +5,7 @@ import {FaUser} from 'react-icons/fa6'
 function Header() {
   return (
     <div className='header_section '>
+
       <div className=' flex container-fluid topnav'>
         <div className='shipping me-auto ps-5'>
           <p>FREE SHIPPING FOR ALL ORDERS OF<strong>$200</strong></p>
@@ -15,7 +16,7 @@ function Header() {
             <li><NavLink to='/cart'>CART</NavLink></li>
             <li><NavLink to='/wishlist'>WISHLIST</NavLink></li>
             <li><NavLink to='checkout'>CHECKOUT</NavLink></li>
-            <li><NavLink to='login' className={'fw-bold'}><FaUser/> LOGIN</NavLink></li>
+            <li><NavLink to='login' className={'fw-bold'}> LOGIN</NavLink></li>
             <li><NavLink to='register' className={'fw-bold'}>REGISTER</NavLink></li>
           </ul>
         </div>
@@ -23,7 +24,7 @@ function Header() {
       </div>
 
       <div className='container brand'>
-        <div className='row pt-3'>
+        <div className='row pt-4'>
           <div className='col-lg-3 col-md-5 col-sm-5 '>
             <NavLink to='/'>
               <img className='ms-4 brand_image' src={require('../img/logo.png')} alt='img'/>
@@ -68,7 +69,7 @@ function Header() {
 
         <div className='container'>
           <div className='row '>
-            <div className='col-lg-8 col-md-12 col-sm-12 flex'>
+            <div className='col-lg-12 col-md-12 col-sm-12 flex'>
               
                
                 <div class="dropdown">

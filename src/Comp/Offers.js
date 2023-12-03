@@ -12,19 +12,19 @@ function Offers() {
   const navigate = useNavigate();
   const handleInfo = () => {
       
-      navigate('/offers');
+      navigate('/');
     };
   return (
     <>
      
-    
+     <button className='bg-light px-2 rounded-2 my-3' style={{marginLeft:'100px'}} onClick={handleInfo}> <FaArrowLeft/> back</button>
     
     <div className='featured container'>
-      <h2 className='text-center py-3 text-danger shadow'>CLEARANCE OFFER!!</h2>
+      <h2 className='text-center py-3 text-danger'>CLEARANCE OFFER!!</h2>
         <div className='row'>
           {productsData.map((a) => (
             <div className='col-lg-3 col-md-6 col-sm-10 text-center ' key={a.id}>
-              <div className='product py-3 px-2 shadow rounded-2'>
+              <div className='product py-3 px-2 rounded-2'>
                 <Link to={`/product_details/${a.id}`}>
                   <img className='w-100' src={a.image} alt="pic" />
                   <h5 className='py-2'>{a.title}</h5>

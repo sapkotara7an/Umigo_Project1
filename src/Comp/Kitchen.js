@@ -18,10 +18,10 @@ function Kitchen() {
     
 
     <>
-      <button className='bg-warning px-2 rounded-2' style={{marginLeft:'200px'}} onClick={handleInfo}> <FaArrowLeft/> back</button>
+      <button className='bg-light px-2 rounded-2 my-3' style={{marginLeft:'100px'}} onClick={handleInfo}> <FaArrowLeft/> back</button>
     
     <div className='container '>
-<div className='text-center py-3 kitchen shadow rounded-2'><h3>Kitchen & Dining</h3></div>
+<div className='text-center py-3 kitchen  rounded-2'><h3>Kitchen & Dining</h3></div>
 
 <div className='row'>
 <div className='col-lg-2 brand_names'>

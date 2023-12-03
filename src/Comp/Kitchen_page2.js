@@ -12,7 +12,7 @@ function Kitchen_page2() {
     <div className='container '>
 
 
-<div className='row'>
+<div className='row mt-5'>
 <div className='col-lg-2 brand_names'>
     <p className='text-center brands'>Brands</p>
     <ul>

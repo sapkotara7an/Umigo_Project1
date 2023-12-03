@@ -24,7 +24,7 @@ const ProductDetail = () => {
   
   return (
   <>
-     <button className='bg-warning px-2 rounded-2' style={{marginLeft:'200px'}} onClick={handleInfo}> <FaArrowLeft/> back</button>
+   <button className='bg-light px-2 rounded-2 my-3' style={{marginLeft:'100px'}} onClick={handleInfo}> <FaArrowLeft/> back</button>
     
     <div className='container  my-2 py-4 shadow-lg' style={{maxWidth:'1100px',}}>
         <div className='row'>

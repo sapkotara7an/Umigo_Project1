@@ -1,14 +1,17 @@
 
 * {box-sizing: border-box;}
+
 h1 h2 h3 h4 h5 h6{font-family: 'Roboto Slab', sans-serif;}
+
 p a {font-family: sans-serif;}
+
 .topnav{
   background:#F9F9F9; font-size: 13px;   padding-top: 11px;
  }
 
  .brand img{
 
-  justify-content: center;
+  justify-content: left;
  }
 @media (max-width: 991px) {
   .shipping {
@@ -74,12 +77,14 @@ p a {font-family: sans-serif;}
    font-size: 30px; text-align: center;border-bottom: 3px solid #FED100; padding:  20px; justify-content: center;
 }
 .nav li:hover{font-weight: 700; color: #FED100;}
+
 .CatItems ul li{
   display:block;
   z-index: 99;
   list-style: none;
 }
 .trending{margin-bottom: 20px; justify-content: center;}
+
 .trending :hover {transform: scale(1.04); transition: transform .6s;}
 
 .dropbtn {

@@ -1,6 +1,8 @@
 import { Link, useNavigate } from "react-router-dom";
 import NewproductsData from "../All Data/NewProduct";
 import { useEffect } from "react";
+import { FaArrowLeft } from "react-icons/fa";
+
 
 const NewArrival= () => {
   useEffect(() => {
@@ -15,10 +17,11 @@ const NewArrival= () => {
 
     return(
         <>
-        <button style={{marginLeft:'200px'}} onClick={handleInfo}>back</button>
+    <button className='bg-light px-2 rounded-2 my-3' style={{marginLeft:'100px'}} onClick={handleInfo}> <FaArrowLeft/> back</button>
+    
         <div className='featured container'>
         <div className='row'>
-            <h2>New Arrivals</h2>
+            <h2 className="text-center mb-3">New Arrivals</h2>
           {NewproductsData.map((a) => (
             <div className='col-lg-3 col-md-6 col-sm-10 text-center' key={a.id}>
             <div className='product py-3 px-2'>
